@@ -1,4 +1,4 @@
-package Curso_em_video.operacoes_matematica;
+package Curso_em_video.Aula6.operacoes_matematica;
 
 import java.util.Scanner;
 

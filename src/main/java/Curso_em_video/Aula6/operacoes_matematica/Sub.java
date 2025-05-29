@@ -1,9 +1,8 @@
-package Curso_em_video.operacoes_matematica;
+package Curso_em_video.Aula6.operacoes_matematica;
 import java.util.Scanner;
-
-public class Div {
+public class Sub {
     public static void main(String[]args){
-        System.out.print("Divisão\n\n");
+        System.out.print("Multiplicação\n\n");
 
         Scanner recebevalor = new Scanner (System.in);
 
@@ -15,10 +14,10 @@ public class Div {
 
         float n2 = recebevalor.nextFloat();
 
-        float soma = n1 / n2;
+        float soma = n1 - n2;
         
         System.out.println("Asoma dos valores é: "+soma);
 
         recebevalor.close();
-        }
+        } 
 }
